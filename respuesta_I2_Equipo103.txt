@@ -1,3 +1,6 @@
 Joaquin Pagliaroli
 Ciro Thames
 Thomas Rolon
+a- Para actualizar mi repositorio hago un "Sync Fork" del repositorio de beta. Luego hago un git pull para actualizar el repositorio de forma local
+
+b- Sí, se podría hacer vinculando el repositorio de GAMMA como un remoto y trayendo sus cambios, pero ahora no podemos hacerlo ya que todavía no vimos en clase los comandos necesarios para realizarlo (fetch, merge o manejo de múltiples remotos).
