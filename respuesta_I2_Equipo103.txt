@@ -8,3 +8,9 @@ b- Sí, se podría hacer vinculando el repositorio de GAMMA como un remoto y tra
 c- Sí, de la misma manera que en el caso anterior, GAMMA podría agregar el repositorio de ALFA como un remoto y sincronizarlo.
 
 d- No, no se pierden. Git intenta conservar tus cambios y si hay choque en las mismas líneas, te avisa con un conflicto para que lo resuelvas a mano, pero no te borra nada solo.
+
+e- Primero, Joaquín Pagliaroli, crea el repositorio y después tira un git clone, después de eso agrega el fork.txt con un git add, después tira un git commit y hace el git push. 
+Después, Thomas Rolón y Ciro Thames, hacemos un git clone del fork del repositorio de Joaquín.
+Luego, modificamos el archivo con nuestros datos e hicimos un git add, git commit y git push. 
+Joaquín Pagliaroli, hace un git pull y crea "NuevoDato.txt", y lo agrega con un git add, hace un commit y lo sube con un git push. 
+Finalmente, Thomas Rolón y Ciro Thames, sincronizamos el fork para actualizar los cambios que hizo Joaquín Pagliaroli, y por ultimo, hicimos un git pull.
